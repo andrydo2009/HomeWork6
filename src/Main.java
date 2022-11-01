@@ -21,7 +21,7 @@ public class Main {
 
         System.out.println(" ");
         System.out.println("Mission 6.2.1");
-        for (int g = 1904; g<2096; g+=4)
+        for (int g = 1904; g<=2096; g+=4)
         { int ostat=g/4;
             if (ostat==0) {}
             {System.out.println(" Висоскосный год= " + g);}
@@ -29,12 +29,12 @@ public class Main {
 
         System.out.println(" ");
         System.out.println("Mission 6.2.2");
-        for ( int z = 7; z < 99; z+=7 )
+        for ( int z = 7; z <= 98; z+=7 )
         { System.out.println("Число = " + z);}
 
         System.out.println(" ");
         System.out.println("Mission 6.2.3");
-        for ( int k = 1; k < 513; k*=2 )
+        for ( int k = 1; k<= 512; k*=2 )
         { System.out.println("Число = " + k);}
 
 
@@ -42,7 +42,7 @@ public class Main {
         System.out.println("Mission 6.3.1");
         int vklad=29000;
         int total=0;
-        for ( int x=0;x<13; x++ )
+        for ( int x=0;x<=12; x++ )
         {total+=vklad;
             System.out.println("Месяц " + x + " сумма накоплений " + total + " рублей" );}
 
@@ -50,7 +50,7 @@ public class Main {
         System.out.println("Mission 6.3.2");
         int vkladToo=29000;
         int totalToo=0;
-        for ( int y=0;y<13; y++ )
+        for ( int y=0;y<=12; y++ )
         {
             totalToo=(totalToo+vkladToo)+(vkladToo/100);
             System.out.println("Месяц " + y + " сумма накоплений на банковском счете " + totalToo + " рублей" );}
@@ -59,3 +59,4 @@ public class Main {
     }
 }
 
+// the end
